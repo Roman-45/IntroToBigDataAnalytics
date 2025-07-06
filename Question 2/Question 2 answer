@@ -10,10 +10,10 @@ def check_palindrome():
     
     # Check if it's the same forwards and backwards
     if cleaned == cleaned[::-1]:
-        print("✅ Yes, it is a palindrome")
+        print("Yes, it is a palindrome")
         return True
     else:
-        print("❌ No, it is not a palindrome")
+        print("No, it is not a palindrome")
         return False
 
 # Call the function
