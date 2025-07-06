@@ -1,0 +1,21 @@
+# Function to check if a string is a palindrome
+def check_palindrome():
+    print("\n--- Palindrome Checker ---")
+    
+    # Ask user to enter a string
+    user_string = input("Enter a string to check: ")
+    
+    # Clean the string: remove spaces and convert to lowercase
+    cleaned = ''.join(c.lower() for c in user_string if c.isalnum())
+    
+    # Check if it's the same forwards and backwards
+    if cleaned == cleaned[::-1]:
+        print("✅ Yes, it is a palindrome")
+        return True
+    else:
+        print("❌ No, it is not a palindrome")
+        return False
+
+# Call the function
+check_palindrome()
+
