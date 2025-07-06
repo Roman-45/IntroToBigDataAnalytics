@@ -1,1 +1,32 @@
+# Function to calculate the average of three grades
+def calculate_average(grade1, grade2, grade3):
+    return (grade1 + grade2 + grade3) / 3
+
+# Function to display the student information and result
+def display_student_info(name, age, g1, g2, g3, average):
+    print("--- Student Information ---")
+    print(f"Name: {name}")
+    print(f"Age: {age}")
+    print(f"Grade 1: {g1}")
+    print(f"Grade 2: {g2}")
+    print(f"Grade 3: {g3}")
+    print(f"Average Grade: {average:.2f}")
+
+# Main function
+def student_management_system():
+    # Compile-time inputs (hardcoded values)
+    student_name = "Placide Shema"
+    student_age = 21
+    grade1 = 75
+    grade2 = 82
+    grade3 = 90
+
+    # Calculate average using function
+    avg = calculate_average(grade1, grade2, grade3)
+
+    # Display all results using function
+    display_student_info(student_name, student_age, grade1, grade2, grade3, avg)
+
+# Run the program
+student_management_system()
 
