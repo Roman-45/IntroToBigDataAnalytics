@@ -12,7 +12,7 @@ This project consists of two well-structured Python programs designed and tested
   A basic student management system that calculates the average of three hardcoded grades and neatly displays student details.
 
 * 🔁 **Question 2: Palindrome Checker**
-  A user-interactive program that checks whether a given string is a palindrome, ignoring spaces, punctuation, and letter casing.
+  A user-interactive program that checks whether a given string is a palindrome, ignoring any spaces, punctuation, and letter casing.
 
 We used **Jupyter Notebook** due to its friendly interface, instant feedback on code execution, and support for inline documentation and screenshots.
 
@@ -47,7 +47,7 @@ These tools enabled us to work efficiently, share feedback instantly, and mainta
 
 ---
 
-## ✅ Question 1: Student Information System
+## ✅ Question 1: Student Management System
 
 ### 🎯 Objective:
 
