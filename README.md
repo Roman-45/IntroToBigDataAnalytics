@@ -1,4 +1,4 @@
-# 👥 Group 9 – Introduction to Big Data: Python Mini Projects
+# 👥 Group 9 – Introduction to Big Data
 
 Welcome to the official GitHub repository of **Group 9** for our *Introduction to Big Data* course. This repository showcases our collaborative efforts in solving Python-based mini projects using clean, modular code and structured problem-solving techniques. We used **Jupyter Notebook** for code development and **GitHub** for tracking progress, collaboration, and final submission.
 
@@ -8,7 +8,7 @@ Welcome to the official GitHub repository of **Group 9** for our *Introduction t
 
 This project consists of two well-structured Python programs designed and tested in a Jupyter Notebook:
 
-* 🧮 **Question 1: Student Information System**
+* 🧱 **Question 1: Student Management System**
   A basic student management system that calculates the average of three hardcoded grades and neatly displays student details.
 
 * 🔁 **Question 2: Palindrome Checker**
@@ -19,7 +19,6 @@ We used **Jupyter Notebook** due to its friendly interface, instant feedback on 
 ### 📷 Jupyter Notebook File (Both Questions)
 
 > ![Screenshot 2025-07-07 012306](https://github.com/user-attachments/assets/b83a3fe0-8132-40b2-b371-ef30af6314e1)
-
 
 ---
 
@@ -73,12 +72,9 @@ This problem taught us how to divide a task into manageable functions for clarit
 > ![Screenshot 2025-07-07 011940](https://github.com/user-attachments/assets/6f79c211-aa98-498d-a9cd-5e5b0895796e)
 > ![Screenshot 2025-07-07 011955](https://github.com/user-attachments/assets/e81750ce-7979-4698-922e-790e38f95ec9)
 
-
-
 ### 🖥️ Output
 
 > ![Screenshot 2025-07-07 012009](https://github.com/user-attachments/assets/b32800c2-b782-4ec0-9c9a-8ed18301662e)
-
 
 ---
 
@@ -110,11 +106,9 @@ This task helped us reinforce input handling and string manipulation techniques 
 
 > ![Screenshot 2025-07-07 012155](https://github.com/user-attachments/assets/b7f5674d-e09b-4478-831d-2d884e69a29d)
 
-
 ### 🖥️ Output
 
 > ![Screenshot 2025-07-07 012211](https://github.com/user-attachments/assets/66dee216-9454-4119-bbc9-487940ead2d6)
-
 
 ---
 
@@ -124,7 +118,7 @@ Our group collaborated throughout the project cycle:
 
 * 🗓️ **Planning:** Discussed requirements and assigned sections
 * 💻 **Coding:** Each member contributed functions and logic blocks
-* 🧪 **Testing:** Validated code with multiple input scenarios
+* 🤪 **Testing:** Validated code with multiple input scenarios
 * 📝 **Documenting:** Wrote this markdown and added screenshots
 * 🔁 **Reviewing:** Peer-reviewed each other’s work using GitHub commits
 
@@ -158,5 +152,3 @@ We are proud of our progress and the results of this assignment. Thank you for r
 📁 [View Source Code on GitHub](https://github.com/Shemaplacide/Group_9_Intro_to_big_data)
 
 ---
-
-
