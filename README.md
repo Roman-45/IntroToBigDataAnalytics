@@ -1,135 +1,162 @@
-# 👥 Group 9 – Introduction to Big Data (Python Mini Project)
+# 👥 Group 9 – Introduction to Big Data: Python Mini Projects
 
-Welcome to our GitHub repository!
-
-We are **Group 9**, a motivated team of students working together to build Python-based mini projects as part of our coursework in *Intro to Big Data*. Our focus is on writing clean, modular code while applying critical problem-solving skills. We use GitHub to collaborate, track progress, and showcase our work professionally.
+Welcome to the official GitHub repository of **Group 9** for our *Introduction to Big Data* course. This repository showcases our collaborative efforts in solving Python-based mini projects using clean, modular code and structured problem-solving techniques. We used **Jupyter Notebook** for code development and **GitHub** for tracking progress, collaboration, and final submission.
 
 ---
 
-## 📂 Project File Overview
+## 📌 Project Overview
 
-Below is a screenshot showing the Jupyter Notebook file that contains both **Question 1** and **Question 2**:
+This project consists of two well-structured Python programs designed and tested in a Jupyter Notebook:
 
-![Screenshot 2025-07-07 012306](https://github.com/user-attachments/assets/691974ff-d77d-4f40-90d5-f29783e44d93)
+* 🧮 **Question 1: Student Information System**
+  A basic student management system that calculates the average of three hardcoded grades and neatly displays student details.
 
+* 🔁 **Question 2: Palindrome Checker**
+  A user-interactive program that checks whether a given string is a palindrome, ignoring spaces, punctuation, and letter casing.
 
+We used **Jupyter Notebook** due to its friendly interface, instant feedback on code execution, and support for inline documentation and screenshots.
 
----
+### 📷 Jupyter Notebook File (Both Questions)
 
-## 🧑‍🤝‍🧑 Group Members
+> ![Screenshot 2025-07-07 012306](https://github.com/user-attachments/assets/b83a3fe0-8132-40b2-b371-ef30af6314e1)
 
-| **Student Name**       | **Student ID** |
-|------------------------|----------------|
-| Shema Placide          | 26497          |
-| Geno Bruce             | 27193          |
-| Rukundo Espoir         | 27678          |
-| Ngomituje Samuel       | 26771          |
-| Imena Vicky            | 26964          |
-
-> 📝 *All members actively contributed to coding, testing, documentation, and collaboration using GitHub and Jupyter Notebook.*
-
----
-
-# 🧠 Python Mini Project – Powered by Jupyter Notebook
-
-This mini project involved solving two Python problems interactively using **Jupyter Notebook**. We chose this environment for its ease of testing, clean code presentation, and user-friendly interface.
 
 ---
 
 ## 👨‍💻 Tools & Technologies Used
 
-- 🐍 **Python**: Version 3.x  
-- 📓 **Jupyter Notebook**: For writing, running, and documenting code interactively  
-- 🔗 **GitHub**: For collaboration, version control, and group submission  
+* 🐍 **Python 3.x** – Core programming language used
+* 📓 **Jupyter Notebook** – Environment for writing and testing code interactively
+* 🌐 **GitHub** – For version control, group coordination, and documentation
+
+These tools enabled us to work efficiently, share feedback instantly, and maintain a clean workflow.
+
+---
+
+## 👩‍🎓 Group Members
+
+| **Name**         | **Student ID** |
+| ---------------- | -------------- |
+| Shema Placide    | 26497          |
+| Geno Bruce       | 27193          |
+| Rukundo Espoir   | 27678          |
+| Ngomituje Samuel | 26771          |
+| Imena Vicky      | 26964          |
+
+> ✨ *Each member actively participated in writing, testing, and reviewing the project code using GitHub and Jupyter Notebook.*
 
 ---
 
 ## ✅ Question 1: Student Information System
 
 ### 🎯 Objective:
-To design a simple **student management system** that calculates and displays a student’s average grade based on three predefined marks. The project emphasizes the use of **functions**, **modular structure**, and **formatted output**.
 
-### 🧠 Key Concepts Practiced:
-- Function creation and reuse  
-- Compile-time data (no user input)  
-- Organized print statements for clarity  
+To design a student management system using functions that calculates the average of three predefined grades and displays structured student details.
 
-### ⚙️ Functional Breakdown:
-- `calculate_average(grade1, grade2, grade3)`: Computes the mean of three grades.
-- `display_student_info(name, age, g1, g2, g3, average)`: Neatly displays all student details.
-- `student_management_system()`: Controls the logic using hardcoded values and calls the two functions above.
+### 🧠 Concepts Practiced:
 
-### 🔍 What We Learned:
-This question helped us understand how to break down a problem into reusable components. It showed us the importance of function-based design when dealing with student or data record systems.
+* Function creation and reuse
+* Code modularity
+* Clean, formatted output
+* Use of hardcoded data (no user input)
 
-### 📸 Screenshot: Code in Jupyter Notebook
+### 🔧 Functional Breakdown:
 
-*Insert screenshot of the code for Question 1 here:*
+1. `calculate_average(grade1, grade2, grade3)` – Returns the mean of three numbers
+2. `display_student_info(name, age, g1, g2, g3, average)` – Displays student information and calculated average
+3. `student_management_system()` – Main driver function that provides values and manages flow
 
-![Screenshot 2025-07-07 011940](https://github.com/user-attachments/assets/3ea6490a-cd6e-44b2-9632-cf60b4509fa8)
-![Screenshot 2025-07-07 011955](https://github.com/user-attachments/assets/95bf3587-0098-465c-9358-9c471f7d3886)
+This problem taught us how to divide a task into manageable functions for clarity, debugging, and reusability.
 
-### 🖥️ Output:
+### 📷 Code Screenshot (Question 1)
 
-*Insert output screenshot here:*
+> ![Screenshot 2025-07-07 011940](https://github.com/user-attachments/assets/6f79c211-aa98-498d-a9cd-5e5b0895796e)
+> ![Screenshot 2025-07-07 011955](https://github.com/user-attachments/assets/e81750ce-7979-4698-922e-790e38f95ec9)
 
-![Screenshot 2025-07-07 012009](https://github.com/user-attachments/assets/09c10878-bbb5-4a4b-9d47-8c748b992ab6)
+
+
+### 🖥️ Output
+
+> ![Screenshot 2025-07-07 012009](https://github.com/user-attachments/assets/b32800c2-b782-4ec0-9c9a-8ed18301662e)
+
 
 ---
 
 ## ✅ Question 2: Palindrome Checker
 
 ### 🎯 Objective:
-To create a function that checks whether a string entered by the user is a **palindrome** (reads the same backward and forward), while ignoring case and spaces.
 
-### 🧠 Key Concepts Practiced:
-- `input()` function for user interaction  
-- String cleaning: removing special characters and spaces  
-- String comparison and slicing  
-- Return values and boolean logic  
+To create a program that checks if a string entered by the user is a **palindrome**, ignoring spaces, symbols, and case.
 
-### ⚙️ Functional Breakdown:
-- `check_palindrome()`: Accepts user input, cleans the string using `.lower()` and `isalnum()`, then checks if the cleaned string equals its reverse using slicing (`[::-1]`).
+### 🧠 Concepts Practiced:
 
-### 🔍 What We Learned:
-This question challenged us to think about **data sanitization** and how **user input** might vary. We also practiced using **conditional statements** and creating user-friendly messages for success and failure scenarios.
+* Accepting and handling user input
+* Data sanitization using `.lower()` and `isalnum()`
+* String slicing and conditional logic
+* User feedback and return values
 
-### 📸 Screenshot: Code in Jupyter Notebook
+### 🔧 Functional Breakdown:
 
-*Insert screenshot of the code for Question 2 here:*
+* `check_palindrome()`:
 
-![Screenshot 2025-07-07 012155](https://github.com/user-attachments/assets/3ee073de-80a4-4dc5-ba68-4bd5321c2a17)
+  * Receives string input
+  * Cleans it by removing non-alphanumeric characters and converting to lowercase
+  * Compares original to its reverse
+  * Prints result and returns a boolean
 
-### 🖥️ Output:
+This task helped us reinforce input handling and string manipulation techniques in Python.
 
-*Insert output screenshot here:*
+### 📷 Code Screenshot (Question 2)
 
-![Screenshot 2025-07-07 012211](https://github.com/user-attachments/assets/78f5caad-5d38-4ac0-9a7b-725bae193b3c)
+> ![Screenshot 2025-07-07 012155](https://github.com/user-attachments/assets/b7f5674d-e09b-4478-831d-2d884e69a29d)
 
----
 
-## 🤝 Group Collaboration
+### 🖥️ Output
 
-This project was a collaborative effort. All members:
-- Participated in planning and writing code  
-- Helped debug and test each solution in Jupyter Notebook  
-- Contributed ideas during discussions and reviews  
-- Made sure code was clean, well-commented, and easy to understand  
+> ![Screenshot 2025-07-07 012211](https://github.com/user-attachments/assets/66dee216-9454-4119-bbc9-487940ead2d6)
 
-We learned not only Python but also how to work better as a team using GitHub and shared tools.
 
 ---
 
-## 📌 Final Thoughts
+## 🤝 Team Collaboration
 
-Through this assignment, we reinforced essential programming practices:
-- Writing clean, reusable functions  
-- Handling input and output clearly  
-- Testing logic in a step-by-step interactive notebook  
-- Documenting our work using Markdown and screenshots  
+Our group collaborated throughout the project cycle:
 
-We’re proud of what we’ve learned and shared as **Group 9**!
+* 🗓️ **Planning:** Discussed requirements and assigned sections
+* 💻 **Coding:** Each member contributed functions and logic blocks
+* 🧪 **Testing:** Validated code with multiple input scenarios
+* 📝 **Documenting:** Wrote this markdown and added screenshots
+* 🔁 **Reviewing:** Peer-reviewed each other’s work using GitHub commits
+
+We practiced both technical coding and soft skills like communication and team coordination.
 
 ---
 
-🔗 **Thank you for reviewing our project!**
+## ✅ Tips & Lessons Learned
+
+* Always **modularize** your code – break logic into small, reusable functions
+* **Test continuously** in Jupyter – you catch issues faster
+* Use `isalnum()` and slicing (`[::-1]`) for clean string checks
+* Commit early and often to GitHub to avoid data loss and maintain history
+* Comment your code clearly – it helps your team and your future self!
+
+---
+
+## 🎓 Final Thoughts
+
+This project not only improved our understanding of Python fundamentals but also introduced us to:
+
+* Team-based development
+* Structured documentation
+* Collaborative coding practices
+
+We are proud of our progress and the results of this assignment. Thank you for reviewing our project.
+
+---
+
+🔗 *Group 9 – Intro to Big Data Python Submission* | July 2025
+📁 [View Source Code on GitHub](https://github.com/Shemaplacide/Group_9_Intro_to_big_data)
+
+---
+
+
