@@ -24,7 +24,15 @@ To create a simple student management system that calculates and displays the av
 This question helped us understand the importance of modular code using **functions**, and how to manage student records in a structured format.
 
 ### 📷 Screenshot of Code Running in Jupyter:
-*(Insert image of Question 1 code in Jupyter here)*
+*![Screenshot 2025-07-07 011940](https://github.com/user-attachments/assets/3ea6490a-cd6e-44b2-9632-cf60b4509fa8)
+![Screenshot 2025-07-07 011955](https://github.com/user-attachments/assets/95bf3587-0098-465c-9358-9c471f7d3886)
+
+The Output
+
+![Screenshot 2025-07-07 012009](https://github.com/user-attachments/assets/09c10878-bbb5-4a4b-9d47-8c748b992ab6)
+
+*
+
 
 ---
 
@@ -48,7 +56,13 @@ This task helped us practice:
 - **Understanding input/output behavior in Jupyter**
 
 ### 📷 Screenshot of Code Running in Jupyter:
-*(Insert image of Question 2 code in Jupyter here)*
+*![Screenshot 2025-07-07 012155](https://github.com/user-attachments/assets/3ee073de-80a4-4dc5-ba68-4bd5321c2a17)
+
+The Output
+
+![Screenshot 2025-07-07 012211](https://github.com/user-attachments/assets/78f5caad-5d38-4ac0-9a7b-725bae193b3c)
+
+*
 
 ---
 
